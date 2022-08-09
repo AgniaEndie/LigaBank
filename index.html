@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand imagebox" href="#">
+                    <img src="assets/img/svg/logo.svg" alt="" class="nav-icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul_nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Рассчитать кредит</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Задать вопрос</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/svg/icon-entrance.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                        Войти в Интернет-банк
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--content-->
+    <content>
+        <!--Carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/slider-bg-girl@1x.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <strong><h1>Лига Банк</h1></strong>
+                            <p>Всегда рядом</p>
+                            <button class="btn btn-primary">Найти отделение</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider-bg-man@1x.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <h1>Some representative placeholder content for the third slide.</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        <!---Tabs-->
+
+        <div class="w-100 container mt-5">
+            <div class="bd-example">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item nav-item-check" role="presentation">
+                        <button class="nav-link active nav-check" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><h5><img src="assets/img/svg/icon-blue-vault.svg"> Вклады</h5></button>
+                    </li>
+                    <li class="nav-item nav-item-check" role="presentation">
+                        <button class="nav-link nav-check" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><h5><img src="assets/img/svg/icon-blue-cards.svg">   Кредиты</h5></button>
+                    </li>
+                    <li class="nav-item nav-item-check" role="presentation">
+                        <button class="nav-link nav-check" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><h5><img src="assets/img/svg/icon-blue-security.svg">   Страхование</h5></button>
+                    </li>
+                    <li class="nav-item nav-item-check" role="presentation">
+                        <button class="nav-link nav-check" id="online-tab" data-bs-toggle="tab" data-bs-target="#online-tab-pane" type="button" role="tab" aria-controls="online-tab-pane" aria-selected="false"><h5><img src="assets/img/svg/icon-blue-phone.svg">   Онлайн-сервисы</h5></button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="p-5 ">
+                                    <h4>Вклады Лига Банка - это выгодная<br> инвестиция в своё будущее</h4><br>
+                                    <li class="list_tabs">Проценты по вкладам до 7%</li><br>
+                                    <li class="list_tabs">Разнообразные условия</li><br>
+                                    <li class="list_tabs">Возможность ежемесячнной капитализации<br> или вывод процентов на банковскую карту</li>
+                                    <br><button class="btn btn-primary">Узнать подробнее</button>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img src="assets/img/content/tab-car-desctop@1x.jpg" class="img_tab">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+
+                    </div>
+                    <div class="tab-pane fade" id="online-tab-pane" role="tabpanel" aria-labelledby="online-tab" tabindex="0">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-center">
+                <div class="">
+                    <br><br><h1>Кредитный калькулятор</h1><br><br>
+                    <form>
+                        <div  class="form_div_L">
+                            <h4>Шаг 1.Цель кредита</h4>
+                            <select id="form_1" class="form-control">
+                                <option id="op_1" selected>Ипотечное кредитование</option>
+                                <option id="op_2">Авто кредитование</option>
+                                <option id="op_3">Предпринимательское кредитование</option>
+                            </select><br>
+                            <h4>Шаг 2.Введите параметры кредита</h4>
+                            <label for="form_2">Стоимость недвижимости</label><br>
+                            <input id="form_2" type="number" min="1 200 000" maxlength="25 000 000" class="form-control">
+                            <p>От 1 200 000 до 25 000 000 рублей</p>
+                            <label for="input_vznos">Первоначальный взнос</label>
+                            <input class="form-control" type="text" disabled id="input_vznos" >
+                            <input class="form-range" type="range" min="0" max="100" id="input_range_vznos">
+
+                            <label for="input_srok">Срок кредитования</label>
+                            <input class="form-control" type="text" disabled id="input_srok">
+                            <input class="form-range" type="range" min="0" max="100" id="input_range_srok" min="5" max="30">
+                            <p><input class=" " type="checkbox">           Использовать материнский капитал</p>
+                        </div>
+                        <div class="form_div_R w-25" >
+                            <h5>Наше предложение</h5><br>
+                            <div class="d_t">
+                                <label for="out_money" class="d_top"><h5>1 330 000 рублей</h5></label>
+                                <p id="out_money">Сумма ипотеки</p>
+                                <label for="out_procent" class="d_top"><h5> 9,40%</h5></label>
+                                <p id="out_procent"> Процентная ставка</p>
+                            </div>
+
+                            <div class="d_t">
+                                <label for="out_per_mounth" class="d_bottom"><h5>27 868 рублей</h5></label>
+                                    <p id="out_per_mounth">Ежемесячный платеж</p>
+                                <label for="out_dohod"><h5 class="d_bottom">61 929 рублей</h5></label>
+                                    <p id="out_dohod">Необходимый доход</p><br>
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="Оформить заявку">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--Map-->
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <br><br><h1 class="mags clear" >Отделения Лига Банка</h1><br><br>
+                <div class="row cler">
+                    <div class="col-3 mmmm"></div>
+                    <div class="col-9 mmmm">
+                        <form>
+                            <p class="mamo nig"><input type="checkbox">  Россия</p>
+                            <p class="mamo nig"><input type="checkbox">  СНГ</p>
+                            <p class="nigg"><input type="checkbox">  Европа</p>
+                        </form>
+                    </div>
+                </div>
+                    <img src="assets/img/bg-map@1x.jpg" class="w-100">
+            </div>
+            <div class="col-3"></div>
+        </div>
+
+
+    </content>
+    <!--footer-->
+    <footer class="mt-5">
+        <div class="container w-100">
+            <div class="row">
+                <div class="col-2 divv"><img src="assets/img/svg/logo.svg" id="logo_footer" alt="" class="nav-icon"><label for ="logo_footer">150015, г.Москва, ул.Московская, д.32<br> Генеральная лицензия банка России №1050. <br> Лига Банк, 2019</label></div>
+                <div class="col-4">
+                    <ul class="footer_list">
+                        <li><a>Услуги</a></li>
+                        <li><a>Рассчитать кредит</a></li>
+                        <li><a>Контакты</a></li>
+                        <li><a>Задать вопрос</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 link divv"><a><h5><img src="assets/img/svg/icon-phone.svg" height="24">*904</h5><label>Беслатно для абитуриентов<br>МТС,БИЛАЙН,МЕГАФОН,ТЕЛЕ2</label></a></div>
+                <div class="col-2 divv"><a href="tel:88001112233"><h5> <img src="assets/img/svg/icon-phone.svg" height="24"> 8 800 111 22 33</h5><label>Бесплатный для всех городов России</label></a></div>
+                <div class="col-2 divv">
+                    <ul class="list_footer_link">
+                        <li><img src="assets/img/svg/icon-facebook.svg"></li>
+                        <li><img src="assets/img/svg/icon-instagram.svg"></li>
+                        <li><img src="assets/img/svg/icon-twitter.svg"></li>
+                        <li><img src="assets/img/svg/icon-youtube.svg"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("/assets/fonts/Roboto/Roboto-Medium.woff2") format("woff2"),
+    url("/assets/fonts/Roboto/Roboto-Medium.woff") format("woff");
+}
+h1{
+    font-family: Arial;
+}
+.nav-icon{
+
+}
+.imagebox{
+    padding-left: 2.5%;
+}
+.container-fluid{
+    padding: 1.2%;
+}
+.ul_nav{
+    padding-top:0.7% ;
+}
+.nav-link{
+    color:black;
+}
+.carousel-caption{
+    color: black;
+    width: 24%;
+    padding-bottom: 8%;
+    padding-left: 12%;
+}
+.btn-primary{
+    background-color: #2C36F2;
+    color: white;
+    border-radius: 0.2em;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: 3em;
+    padding-right: 3em;;
+}
+.nav-tabs{
+
+}
+.nav-check{
+    padding: 1.2em 2em;
+    width: 300px;
+
+}
+.form_div_L{
+    float: left;
+}
+.form_div_R{
+    float: left;
+    margin-left: 5%;
+}
+.d_t{
+    float: left;
+
+}
+
+
+.map_ul{
+    list-style: none;
+}
+.map_ul li{
+    float: left;
+}
+.active{
+    background-color: #e7f1ff!important;
+}
+.mmap{
+    background-color: #e7f1ff!important;
+
+}
+footer{
+    height: 100px;
+}
+footer div{
+    height: 100px;
+}
+footer p{
+    font-size: 12px;
+}
+.footer_list{
+    list-style: none;
+}
+.link{
+    width: 150px;
+}
+.list_footer_link li{
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+}
+.list_tabs{
+    list-style: none;
+}
+.divv{
+    font-size: 10px;
+}
+.img_tab{
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+.mags{
+
+}
+.mamo{
+    float: left;
+}
+mmmm{
+    background-color: #e7f1ff!important;
+    padding: 0;
+}
+
+.nig{
+    margin-left: 25px;
+}
+.nigg{
+    padding-left: 30px;
+}
+.cler{
+
+}
+.clear{
+    background-color: white!important;
+}
+footer{
+    background-color: #e7f1ff!important;
+}
